@@ -1,0 +1,205 @@
+@import url("https://fonts.cdnfonts.com/css/inter");
+
+/* Cores
+Links do Menu no Topo, texto acima do valor, texto em baixo das fotos: #505050
+Botão, R$ valor, fundo da imagem e etc: #2E68FF
+Títulos maiores: #040315
+Fundo do rodapé: #1A1A1A
+*/
+
+/* Tamanho das fontes 
+Boat Stone Bluetooth Speaker - 54px
+Desfrute de uma conectividade perfeita com a mais recente tecnologia - 64px
+Valor, preço - 64px
+Bluetooth 5.3 - 20px
+Textos e paragrafos - 18px
+Itens do menu - 16px
+Leve sua música para qualquer lugar com este alto-lante compacto e leve - 54px
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+	
+}
+
+/* Faça seu código aqui 👇 */
+body {
+	font-family: "Inter", sans-serif;
+	background-color: white;
+	
+}
+section.logo{
+	width: 1216px;
+    margin: 0px auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+section.centro{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 0px 80px 0px;
+	
+}
+
+nav.texto{
+	gap: 48px;
+	display: flex;
+	align-items: center;
+	
+}
+
+header nav a{
+	text-decoration: none;
+	color: #505050;
+}
+
+div.hero{
+	display: flex;
+	width: 1216px;
+    margin: 0px auto;
+	gap: 130px;
+	padding: 0px 0px 168px 0px;
+}
+
+div.info{
+	width: 490px;
+	
+}
+p#t1{
+	font-size: 18px;
+	margin: 60px 0px 0px 0px;
+	color: #505050;
+}
+p.price{
+	font-size: 64px;
+	margin: 40px 0px 0px 0px;
+	color: #2E68FF;
+	font-weight: bold;
+}
+button.btn{
+	font-size: 18px;
+	background-color: #2E68FF ;
+	margin: 50px 0px 0px 0px;
+	width: 200px;
+	color: #fff;
+	border: 0px;
+	padding: 10px 0px 10px 0px;
+}
+
+h3{
+	color: #b5b5b5;
+	font-size: 12px;
+	margin: 30px 0px 0px 0px;
+}
+
+h1{
+	font-size: 54px;
+}
+
+section.meio{
+	display: flex;
+	width: 1216px;
+	margin: 0px auto;
+}
+
+div.foto2{
+	display: flex;
+	gap: 48px;
+	justify-content: space-between;
+	margin: 50px 0px 20px 0px;
+}
+
+div.descricao{
+	display: flex;
+	justify-content: space-around;
+	width: 1216px;
+	margin: 0px auto;
+	gap: 140px;
+	color: #505050;
+}
+h3#Bluetooth{
+	width: 1216px;
+	font-size: 20px;
+	color:  #2E68FF ;
+	text-align: center;
+	margin: 0px auto;
+}
+
+h1#manga{
+	width: 1216px;
+	font-size: 64px;
+	text-align: center;
+	margin: 26px 0px 0px 0px
+
+}
+
+section.vazio{
+	padding: 0px 0px 200px 0px;
+}
+
+div.caixaazul{
+	display: flex;
+	width: 1216px;
+	margin: 0px auto;
+	background-color: #2E68FF;
+	justify-content: space-between;
+	
+}
+
+div.caixaazul section{
+	margin: 0px auto;
+	padding: 96px;
+}
+
+div.letras p{
+	width: 586px;
+	font-size: 54px;
+	color: white;
+	font-weight: bold;
+	margin: 60px 96px 50px 0px;
+}
+
+div.letras img{
+	margin: 100px 0px 0px 0px;
+}
+
+div.letras h5{
+	color: white;
+	font-size: 17px;
+	margin: 0px 350px 0px 0px;
+}
+
+footer.final{
+	background-color: black;
+	padding: 60px;
+	display: flex;
+	margin: 150px 0px 0px 0px;
+	
+}
+
+footer nav{
+	width: 1216px;
+	display: flex;
+    align-items: center;
+	margin: 0px auto;
+	justify-content: space-between;
+	
+}
+
+footer section{
+	margin: 0px 150px 0px 0px;
+	
+}
+
+footer a{
+	color: #fff;
+	text-decoration: none;
+}
+
+footer div{
+	margin: 0px 0px 0px 150px;
+	
+}
